@@ -1,0 +1,12 @@
+# AWS Web Application Firewall (WAF)
+# Highly Configurable and Scalable, Cloud Native web application Layer-7 firewall giving you the first line of defense.]
+There are **many security threats** that exist today in a typical enterprise distributed application.
+1.	**DDoS:** Flood Attacks (SYN Floods, UDP Floods, ICMP Floods, HTTP Floods, DNS Query Floods), Reflection Attacks
+2.	**Application Vulnerabilities:** SQL Injections, Cross Site Scripting (XSS), Open Web Application Security Project (OWASP), Common Vulnerabilities and Exposures (CVE)
+3.	**Bad Bots:** Crawlers, Content Scrapers, Scanners and Probes
+Out of these, AWS WAF can be used to handle security threats such as SQL injections, Cross Site Scripting (XSS) in a typical web application.
+The web application HTTP requestss can be routed via AWS WAF and then will be forwarded to either one of the AWS services.
+1.	AWS CloudFront (A Global Service)
+2.	AWS API Gateway (A Regional Service)
+3.	AWS Application Load Balancer (A Regional Service)
+Logging and Monitoring of WAF are handled by Kinesis Firehose and CloudWatch respectively.
